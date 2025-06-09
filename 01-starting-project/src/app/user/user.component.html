@@ -1,11 +1,12 @@
 <div>
-  <button>
+  <button (click)="onSelectUser()">
 
     <img [src]="ImagePath">
     <!-- <img src="assets/users/{{selectedUser.avatar}}" alt="selectedUser.name" /> -->
 
     <!-- property binding -->
     <!-- <img [src]="'assets/users/' + selectedUser.avatar"> -->
+
     <span>{{selectedUser.name}}</span>
   </button>
 </div>
