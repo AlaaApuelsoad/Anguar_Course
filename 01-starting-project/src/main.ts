@@ -1,7 +1,7 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 
 import { AppComponent } from './app/app.component';
-import { HeaderComponent } from './app/header.component';
+import { HeaderComponent } from './app/header/header.component';
 
 //this function tells angular to look for Appcomponent html file to display its contnet on the screen
 bootstrapApplication(AppComponent).catch((err) => console.error(err)); 
